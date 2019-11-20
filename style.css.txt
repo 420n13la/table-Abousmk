@@ -1,0 +1,69 @@
+body{
+	font-family: unbuntu, sans-serif;
+}
+th{
+	border-collapse: collapse;
+	background-color: teal;
+	color:white;
+}
+table{
+	border-collapse:collapse;
+	border:black solid 0.5px;
+	font-size: 15px;
+}
+
+tbody td{
+	border:black solid 0.5px"
+}
+
+td, th{
+		padding: 5px;
+		padding-right:10px;
+	
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #D3D3D3;
+}
+
+tbody tr>:nth-child(3),
+tbody tr>:nth-child(4),
+tbody tr>:nth-child(5),
+tbody tr>:nth-child(6),
+tbody tr>:nth-child(7),
+tbody tr>:nth-child(8),
+tbody tr>:nth-child(9),
+tbody tr>:nth-child(10),
+tbody tr>:nth-child(11){
+	text-align:right;
+}
+
+tfoot tr>:nth-child(2),
+tfoot tr>:nth-child(3),
+tfoot tr>:nth-child(4),
+tfoot tr>:nth-child(5),
+tfoot tr>:nth-child(6),
+tfoot tr>:nth-child(7),
+tfoot tr>:nth-child(8),
+tfoot tr>:nth-child(9),
+tfoot tr>:nth-child(10){
+	text-align:right;
+}
+
+tfoot tr{
+	background-color:gold;
+}
+
+tbody tr td:nth-child(11){
+   color: crimson;
+}
+
+tr td:nth-child(10){
+	color:crimson;
+}
+
+caption{
+	color:crimson;
+	font-size:20px;
+}
